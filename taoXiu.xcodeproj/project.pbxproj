@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC462F5E1BA18A67003E3391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462F5D1BA18A67003E3391 /* main.m */; };
-		EC462F611BA18A67003E3391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462F601BA18A67003E3391 /* AppDelegate.m */; };
-		EC462F641BA18A67003E3391 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462F631BA18A67003E3391 /* ViewController.m */; };
-		EC462F671BA18A67003E3391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC462F651BA18A67003E3391 /* Main.storyboard */; };
+		EC353D031BA2A036002AE0E4 /* TXBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC353D021BA2A036002AE0E4 /* TXBadgeView.m */; };
 		EC462F691BA18A67003E3391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC462F681BA18A67003E3391 /* Images.xcassets */; };
-		EC462F6C1BA18A67003E3391 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC462F6A1BA18A67003E3391 /* LaunchScreen.xib */; };
 		EC462F781BA18A67003E3391 /* taoXiuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462F771BA18A67003E3391 /* taoXiuTests.m */; };
+		EC4630071BA1AF5D003E3391 /* TXMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462FF31BA1AF5D003E3391 /* TXMeTableViewController.m */; };
+		EC4630081BA1AF5D003E3391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462FF81BA1AF5D003E3391 /* AppDelegate.m */; };
+		EC4630091BA1AF5D003E3391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462FF91BA1AF5D003E3391 /* main.m */; };
+		EC46300A1BA1AF5D003E3391 /* TXStoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462FFE1BA1AF5D003E3391 /* TXStoreTableViewController.m */; };
+		EC46300B1BA1AF5D003E3391 /* TXXiuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4630041BA1AF5D003E3391 /* TXXiuTableViewController.m */; };
+		EC7227A21BA1C4FF009B69DC /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7227A11BA1C4FF009B69DC /* TXTabBarController.m */; };
+		ECBEF6771BA1D21A006D34E6 /* UIImage+TX.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEF6761BA1D21A006D34E6 /* UIImage+TX.m */; };
+		ECBEF67A1BA24AAD006D34E6 /* TXTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEF6791BA24AAD006D34E6 /* TXTabbarButton.m */; };
+		ECBEF68A1BA2619B006D34E6 /* TXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEF6891BA2619B006D34E6 /* TXTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC353D011BA2A036002AE0E4 /* TXBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXBadgeView.h; sourceTree = "<group>"; };
+		EC353D021BA2A036002AE0E4 /* TXBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXBadgeView.m; sourceTree = "<group>"; };
 		EC462F581BA18A66003E3391 /* taoXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taoXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC462F5C1BA18A67003E3391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC462F5D1BA18A67003E3391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC462F5F1BA18A67003E3391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EC462F601BA18A67003E3391 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC462F621BA18A67003E3391 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC462F631BA18A67003E3391 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EC462F661BA18A67003E3391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC462F681BA18A67003E3391 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EC462F6B1BA18A67003E3391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC462F711BA18A67003E3391 /* taoXiuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taoXiuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC462F761BA18A67003E3391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC462F771BA18A67003E3391 /* taoXiuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taoXiuTests.m; sourceTree = "<group>"; };
+		EC462FF21BA1AF5D003E3391 /* TXMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeTableViewController.h; sourceTree = "<group>"; };
+		EC462FF31BA1AF5D003E3391 /* TXMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeTableViewController.m; sourceTree = "<group>"; };
+		EC462FF71BA1AF5D003E3391 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC462FF81BA1AF5D003E3391 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC462FF91BA1AF5D003E3391 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC462FFA1BA1AF5D003E3391 /* taoxiu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "taoxiu-Prefix.pch"; sourceTree = "<group>"; };
+		EC462FFD1BA1AF5D003E3391 /* TXStoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXStoreTableViewController.h; sourceTree = "<group>"; };
+		EC462FFE1BA1AF5D003E3391 /* TXStoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStoreTableViewController.m; sourceTree = "<group>"; };
+		EC4630031BA1AF5D003E3391 /* TXXiuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXXiuTableViewController.h; sourceTree = "<group>"; };
+		EC4630041BA1AF5D003E3391 /* TXXiuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXXiuTableViewController.m; sourceTree = "<group>"; };
+		EC7227A01BA1C4FF009B69DC /* TXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBarController.h; sourceTree = "<group>"; };
+		EC7227A11BA1C4FF009B69DC /* TXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBarController.m; sourceTree = "<group>"; };
+		ECBEF6751BA1D21A006D34E6 /* UIImage+TX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TX.h"; sourceTree = "<group>"; };
+		ECBEF6761BA1D21A006D34E6 /* UIImage+TX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TX.m"; sourceTree = "<group>"; };
+		ECBEF6781BA24AAD006D34E6 /* TXTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabbarButton.h; sourceTree = "<group>"; };
+		ECBEF6791BA24AAD006D34E6 /* TXTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabbarButton.m; sourceTree = "<group>"; };
+		ECBEF6881BA2619B006D34E6 /* TXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBar.h; sourceTree = "<group>"; };
+		ECBEF6891BA2619B006D34E6 /* TXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +99,7 @@
 		EC462F5A1BA18A66003E3391 /* taoXiu */ = {
 			isa = PBXGroup;
 			children = (
-				EC462F5F1BA18A67003E3391 /* AppDelegate.h */,
-				EC462F601BA18A67003E3391 /* AppDelegate.m */,
-				EC462F621BA18A67003E3391 /* ViewController.h */,
-				EC462F631BA18A67003E3391 /* ViewController.m */,
-				EC462F651BA18A67003E3391 /* Main.storyboard */,
-				EC462F681BA18A67003E3391 /* Images.xcassets */,
-				EC462F6A1BA18A67003E3391 /* LaunchScreen.xib */,
+				EC462FEB1BA1AF5D003E3391 /* Classes */,
 				EC462F5B1BA18A67003E3391 /* Supporting Files */,
 			);
 			path = taoXiu;
@@ -96,8 +108,8 @@
 		EC462F5B1BA18A67003E3391 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC462F681BA18A67003E3391 /* Images.xcassets */,
 				EC462F5C1BA18A67003E3391 /* Info.plist */,
-				EC462F5D1BA18A67003E3391 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +129,182 @@
 				EC462F761BA18A67003E3391 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC462FEB1BA1AF5D003E3391 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC4630011BA1AF5D003E3391 /* Xiu(秀) */,
+				EC462FFB1BA1AF5D003E3391 /* Store(淘乐) */,
+				EC462FF01BA1AF5D003E3391 /* Me(我的) */,
+				EC462FEC1BA1AF5D003E3391 /* Main(主要) */,
+				EC462FF61BA1AF5D003E3391 /* Other(其他) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC462FEC1BA1AF5D003E3391 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				EC462FED1BA1AF5D003E3391 /* Controller */,
+				EC462FEE1BA1AF5D003E3391 /* Model */,
+				EC462FEF1BA1AF5D003E3391 /* View */,
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EC462FED1BA1AF5D003E3391 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC7227A01BA1C4FF009B69DC /* TXTabBarController.h */,
+				EC7227A11BA1C4FF009B69DC /* TXTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC462FEE1BA1AF5D003E3391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC462FEF1BA1AF5D003E3391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECBEF6781BA24AAD006D34E6 /* TXTabbarButton.h */,
+				ECBEF6791BA24AAD006D34E6 /* TXTabbarButton.m */,
+				ECBEF6881BA2619B006D34E6 /* TXTabBar.h */,
+				ECBEF6891BA2619B006D34E6 /* TXTabBar.m */,
+				EC353D011BA2A036002AE0E4 /* TXBadgeView.h */,
+				EC353D021BA2A036002AE0E4 /* TXBadgeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC462FF01BA1AF5D003E3391 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				EC462FF11BA1AF5D003E3391 /* Controller */,
+				EC462FF41BA1AF5D003E3391 /* Model */,
+				EC462FF51BA1AF5D003E3391 /* View */,
+			);
+			name = "Me(我的)";
+			path = Me;
+			sourceTree = "<group>";
+		};
+		EC462FF11BA1AF5D003E3391 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC462FF21BA1AF5D003E3391 /* TXMeTableViewController.h */,
+				EC462FF31BA1AF5D003E3391 /* TXMeTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC462FF41BA1AF5D003E3391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC462FF51BA1AF5D003E3391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC462FF61BA1AF5D003E3391 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				ECBEF6741BA1D1AF006D34E6 /* Category */,
+				EC462FF71BA1AF5D003E3391 /* AppDelegate.h */,
+				EC462FF81BA1AF5D003E3391 /* AppDelegate.m */,
+				EC462FF91BA1AF5D003E3391 /* main.m */,
+				EC462FFA1BA1AF5D003E3391 /* taoxiu-Prefix.pch */,
+			);
+			name = "Other(其他)";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EC462FFB1BA1AF5D003E3391 /* Store(淘乐) */ = {
+			isa = PBXGroup;
+			children = (
+				EC462FFC1BA1AF5D003E3391 /* Controller */,
+				EC462FFF1BA1AF5D003E3391 /* Model */,
+				EC4630001BA1AF5D003E3391 /* View */,
+			);
+			name = "Store(淘乐)";
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EC462FFC1BA1AF5D003E3391 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC462FFD1BA1AF5D003E3391 /* TXStoreTableViewController.h */,
+				EC462FFE1BA1AF5D003E3391 /* TXStoreTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC462FFF1BA1AF5D003E3391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC4630001BA1AF5D003E3391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC4630011BA1AF5D003E3391 /* Xiu(秀) */ = {
+			isa = PBXGroup;
+			children = (
+				EC4630021BA1AF5D003E3391 /* Controller */,
+				EC4630051BA1AF5D003E3391 /* Model */,
+				EC4630061BA1AF5D003E3391 /* View */,
+			);
+			name = "Xiu(秀)";
+			path = Xiu;
+			sourceTree = "<group>";
+		};
+		EC4630021BA1AF5D003E3391 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC4630031BA1AF5D003E3391 /* TXXiuTableViewController.h */,
+				EC4630041BA1AF5D003E3391 /* TXXiuTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC4630051BA1AF5D003E3391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC4630061BA1AF5D003E3391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECBEF6741BA1D1AF006D34E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ECBEF6751BA1D21A006D34E6 /* UIImage+TX.h */,
+				ECBEF6761BA1D21A006D34E6 /* UIImage+TX.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +351,7 @@
 		EC462F501BA18A66003E3391 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TX;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = jhqiu;
 				TargetAttributes = {
@@ -199,8 +388,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC462F671BA18A67003E3391 /* Main.storyboard in Resources */,
-				EC462F6C1BA18A67003E3391 /* LaunchScreen.xib in Resources */,
 				EC462F691BA18A67003E3391 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +406,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC462F641BA18A67003E3391 /* ViewController.m in Sources */,
-				EC462F611BA18A67003E3391 /* AppDelegate.m in Sources */,
-				EC462F5E1BA18A67003E3391 /* main.m in Sources */,
+				EC4630081BA1AF5D003E3391 /* AppDelegate.m in Sources */,
+				EC4630091BA1AF5D003E3391 /* main.m in Sources */,
+				EC4630071BA1AF5D003E3391 /* TXMeTableViewController.m in Sources */,
+				ECBEF68A1BA2619B006D34E6 /* TXTabBar.m in Sources */,
+				EC7227A21BA1C4FF009B69DC /* TXTabBarController.m in Sources */,
+				EC46300B1BA1AF5D003E3391 /* TXXiuTableViewController.m in Sources */,
+				ECBEF6771BA1D21A006D34E6 /* UIImage+TX.m in Sources */,
+				EC46300A1BA1AF5D003E3391 /* TXStoreTableViewController.m in Sources */,
+				EC353D031BA2A036002AE0E4 /* TXBadgeView.m in Sources */,
+				ECBEF67A1BA24AAD006D34E6 /* TXTabbarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +436,6 @@
 			targetProxy = EC462F721BA18A67003E3391 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EC462F651BA18A67003E3391 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC462F661BA18A67003E3391 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EC462F6A1BA18A67003E3391 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC462F6B1BA18A67003E3391 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC462F791BA18A67003E3391 /* Debug */ = {
@@ -299,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,7 +522,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "taoXiu/Classes/Other/taoxiu-Prefix.pch";
 				INFOPLIST_FILE = taoXiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +536,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "taoXiu/Classes/Other/taoxiu-Prefix.pch";
 				INFOPLIST_FILE = taoXiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +599,7 @@
 				EC462F7D1BA18A67003E3391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC462F7E1BA18A67003E3391 /* Build configuration list for PBXNativeTarget "taoXiuTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +608,7 @@
 				EC462F801BA18A67003E3391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
