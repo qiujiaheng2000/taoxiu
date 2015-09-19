@@ -64,15 +64,15 @@
 {
     TXXiuTableViewController *xiuController = [[TXXiuTableViewController alloc]init];
     [self setupChildViewController:xiuController title:@"淘秀" imageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected"];
-      xiuController.tabBarItem.badgeValue = @"1";
+
     
     TXStoreTableViewController *storeController = [[TXStoreTableViewController alloc]init];
     [self setupChildViewController:storeController title:@"淘淘乐" imageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected"];
-      storeController.tabBarItem.badgeValue = @"111";
+
     
     TXMeTableViewController *meController = [[TXMeTableViewController alloc]init];
     [self setupChildViewController:meController title:@"我的" imageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected"];
-      meController.tabBarItem.badgeValue = @"1000";
+
 }
 
 -(void)setupChildViewController:(UIViewController *)childVc title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
