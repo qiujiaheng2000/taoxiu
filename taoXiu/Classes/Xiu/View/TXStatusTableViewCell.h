@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class TXStatusFrame;
+/**
+ *  首页秀的cell
+ */
 @interface TXStatusTableViewCell : UITableViewCell
-
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+@property(nonatomic,strong)TXStatusFrame *txStatusFrame;
 @end

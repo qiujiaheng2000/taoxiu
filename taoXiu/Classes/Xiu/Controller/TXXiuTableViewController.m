@@ -8,12 +8,29 @@
 
 #import "TXXiuTableViewController.h"
 #import "AFNetworking.h"
+#import "MJRefreshHeaderView.h"
+#import "MJRefreshFooterView.h"
 
-@interface TXXiuTableViewController ()
 
+@interface TXXiuTableViewController () <MJRefreshBaseViewDelegate>
+@property(nonatomic,strong)NSMutableArray *statusFrames;
+@property(nonatomic,weak)MJRefreshHeaderView *header;
+@property(nonatomic,weak)MJRefreshFooterView *footer;
 @end
 
 @implementation TXXiuTableViewController
+
+
+
+- (NSMutableArray *)statusFrames
+{
+    if(_statusFrames == nil)
+    {
+        _statusFrames = [NSMutableArray array];
+    }
+    return _statusFrames;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,7 +48,68 @@
 //    [self.view addSubview:button];
 //    
 //    [button addTarget:self action:@selector(buttonOnClick) forControlEvents:UIControlEventTouchDown];
-//    
+//
+    
+    //添加上拉下拉view
+    [self setRefreshView];
+}
+
+/**
+ *  集成上拉下拉的view
+ */
+- (void)setRefreshView
+{
+    MJRefreshHeaderView *header = [MJRefreshHeaderView header];
+    header.scrollView = self.tableView;
+    header.delegate = self;
+    self.header = header;
+    
+    MJRefreshFooterView *footer = [MJRefreshFooterView footer];
+    footer.scrollView = self.tableView;
+    footer.delegate = self;
+    self.footer = footer;
+    
+}
+
+
+- (void)refreshViewBeginRefreshing:(MJRefreshBaseView *)refreshView
+{
+    if ([refreshView isKindOfClass:[MJRefreshFooterView class]]) { // 上拉刷新
+        [self loadMoreData];
+    } else { // 下拉刷新
+        [self loadNewData];
+    }
+
+}
+
+- (void)refreshViewEndRefreshing:(MJRefreshBaseView *)refreshView
+{
+    
+}
+
+- (void)refreshView:(MJRefreshBaseView *)refreshView stateChange:(MJRefreshState)state
+{
+    
+}
+
+- (void)dealloc
+{
+    [self.header free];
+    [self.footer free];
+}
+/**
+ *  加载更多数据
+ */
+- (void) loadMoreData
+{
+    
+}
+/**
+ *  加载最新的数据
+ */
+-(void) loadNewData
+{
+    
 }
 
 //-(void)buttonOnClick{

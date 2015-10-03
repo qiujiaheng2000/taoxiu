@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TXStatusTopView : UIImage
-
+@class TXStatusFrame;
+/**
+ *  首页的动态对象的上部分view
+ */
+@interface TXStatusTopView : UIImageView
+@property(nonatomic,strong)TXStatusFrame *statusFrame;
 @end

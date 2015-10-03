@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface TXPhoto : NSObject
-
+/**
+ *  缩略图
+ */
+@property(nonatomic,copy)NSString *thumbnail_pic;
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TXPhoto;
 
 @interface TXPhotoView : UIImageView
-
+@property(nonatomic,strong)TXPhoto *photo;
 @end

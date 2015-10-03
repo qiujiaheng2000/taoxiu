@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D3F93ED98B3FEF0DC6103FE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 902E42AB7FBA7208CA3C2B1F /* libPods.a */; };
+		EC3292031BAEC9710094D1E4 /* TXStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3292021BAEC9710094D1E4 /* TXStatus.m */; };
+		EC3292061BAF845E0094D1E4 /* TXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3292051BAF845E0094D1E4 /* TXUser.m */; };
+		EC3292091BAF87A70094D1E4 /* TXStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3292081BAF87A70094D1E4 /* TXStatusTableViewCell.m */; };
+		EC32920C1BAF87DC0094D1E4 /* TXStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32920B1BAF87DC0094D1E4 /* TXStatusFrame.m */; };
+		EC32920F1BAF89FB0094D1E4 /* TXStatusTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32920E1BAF89FB0094D1E4 /* TXStatusTopView.m */; };
 		EC353D031BA2A036002AE0E4 /* TXBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC353D021BA2A036002AE0E4 /* TXBadgeView.m */; };
 		EC462F691BA18A67003E3391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC462F681BA18A67003E3391 /* Images.xcassets */; };
 		EC462F781BA18A67003E3391 /* taoXiuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462F771BA18A67003E3391 /* taoXiuTests.m */; };
@@ -17,9 +22,17 @@
 		EC46300A1BA1AF5D003E3391 /* TXStoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462FFE1BA1AF5D003E3391 /* TXStoreTableViewController.m */; };
 		EC46300B1BA1AF5D003E3391 /* TXXiuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4630041BA1AF5D003E3391 /* TXXiuTableViewController.m */; };
 		EC7227A21BA1C4FF009B69DC /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7227A11BA1C4FF009B69DC /* TXTabBarController.m */; };
+		ECA958FB1BBD548600B370C6 /* TXPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA958FA1BBD548600B370C6 /* TXPhoto.m */; settings = {ASSET_TAGS = (); }; };
+		ECA958FE1BBD55EC00B370C6 /* TXPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA958FD1BBD55EC00B370C6 /* TXPhotosView.m */; settings = {ASSET_TAGS = (); }; };
+		ECA959011BBD566200B370C6 /* TXPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA959001BBD566200B370C6 /* TXPhotoView.m */; settings = {ASSET_TAGS = (); }; };
 		ECBEF6771BA1D21A006D34E6 /* UIImage+TX.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEF6761BA1D21A006D34E6 /* UIImage+TX.m */; };
 		ECBEF67A1BA24AAD006D34E6 /* TXTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEF6791BA24AAD006D34E6 /* TXTabbarButton.m */; };
 		ECBEF68A1BA2619B006D34E6 /* TXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEF6891BA2619B006D34E6 /* TXTabBar.m */; };
+		ECD40E741BBEBD6C0011088D /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECD40E6A1BBEBD6C0011088D /* MJRefresh.bundle */; settings = {ASSET_TAGS = (); }; };
+		ECD40E751BBEBD6C0011088D /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD40E6D1BBEBD6C0011088D /* MJRefreshBaseView.m */; settings = {ASSET_TAGS = (); }; };
+		ECD40E761BBEBD6C0011088D /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD40E6F1BBEBD6C0011088D /* MJRefreshConst.m */; settings = {ASSET_TAGS = (); }; };
+		ECD40E771BBEBD6C0011088D /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD40E711BBEBD6C0011088D /* MJRefreshFooterView.m */; settings = {ASSET_TAGS = (); }; };
+		ECD40E781BBEBD6C0011088D /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD40E731BBEBD6C0011088D /* MJRefreshHeaderView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,16 @@
 /* Begin PBXFileReference section */
 		5654ADD9110454DF5CE4C90D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		902E42AB7FBA7208CA3C2B1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3292011BAEC9710094D1E4 /* TXStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXStatus.h; sourceTree = "<group>"; };
+		EC3292021BAEC9710094D1E4 /* TXStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStatus.m; sourceTree = "<group>"; };
+		EC3292041BAF845E0094D1E4 /* TXUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUser.h; sourceTree = "<group>"; };
+		EC3292051BAF845E0094D1E4 /* TXUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXUser.m; sourceTree = "<group>"; };
+		EC3292071BAF87A70094D1E4 /* TXStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXStatusTableViewCell.h; sourceTree = "<group>"; };
+		EC3292081BAF87A70094D1E4 /* TXStatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStatusTableViewCell.m; sourceTree = "<group>"; };
+		EC32920A1BAF87DC0094D1E4 /* TXStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXStatusFrame.h; sourceTree = "<group>"; };
+		EC32920B1BAF87DC0094D1E4 /* TXStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStatusFrame.m; sourceTree = "<group>"; };
+		EC32920D1BAF89FB0094D1E4 /* TXStatusTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXStatusTopView.h; sourceTree = "<group>"; };
+		EC32920E1BAF89FB0094D1E4 /* TXStatusTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStatusTopView.m; sourceTree = "<group>"; };
 		EC353D011BA2A036002AE0E4 /* TXBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXBadgeView.h; sourceTree = "<group>"; };
 		EC353D021BA2A036002AE0E4 /* TXBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXBadgeView.m; sourceTree = "<group>"; };
 		EC462F581BA18A66003E3391 /* taoXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taoXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,14 +76,31 @@
 		EC462FFE1BA1AF5D003E3391 /* TXStoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStoreTableViewController.m; sourceTree = "<group>"; };
 		EC4630031BA1AF5D003E3391 /* TXXiuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXXiuTableViewController.h; sourceTree = "<group>"; };
 		EC4630041BA1AF5D003E3391 /* TXXiuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXXiuTableViewController.m; sourceTree = "<group>"; };
+		EC4C77991BB0DF89004CDB59 /* TXCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCommon.h; sourceTree = "<group>"; };
 		EC7227A01BA1C4FF009B69DC /* TXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBarController.h; sourceTree = "<group>"; };
 		EC7227A11BA1C4FF009B69DC /* TXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBarController.m; sourceTree = "<group>"; };
+		ECA958F91BBD548600B370C6 /* TXPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXPhoto.h; sourceTree = "<group>"; };
+		ECA958FA1BBD548600B370C6 /* TXPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXPhoto.m; sourceTree = "<group>"; };
+		ECA958FC1BBD55EC00B370C6 /* TXPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXPhotosView.h; sourceTree = "<group>"; };
+		ECA958FD1BBD55EC00B370C6 /* TXPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXPhotosView.m; sourceTree = "<group>"; };
+		ECA958FF1BBD566200B370C6 /* TXPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXPhotoView.h; sourceTree = "<group>"; };
+		ECA959001BBD566200B370C6 /* TXPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXPhotoView.m; sourceTree = "<group>"; };
 		ECBEF6751BA1D21A006D34E6 /* UIImage+TX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TX.h"; sourceTree = "<group>"; };
 		ECBEF6761BA1D21A006D34E6 /* UIImage+TX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TX.m"; sourceTree = "<group>"; };
 		ECBEF6781BA24AAD006D34E6 /* TXTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabbarButton.h; sourceTree = "<group>"; };
 		ECBEF6791BA24AAD006D34E6 /* TXTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabbarButton.m; sourceTree = "<group>"; };
 		ECBEF6881BA2619B006D34E6 /* TXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBar.h; sourceTree = "<group>"; };
 		ECBEF6891BA2619B006D34E6 /* TXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBar.m; sourceTree = "<group>"; };
+		ECD40E6A1BBEBD6C0011088D /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		ECD40E6B1BBEBD6C0011088D /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		ECD40E6C1BBEBD6C0011088D /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		ECD40E6D1BBEBD6C0011088D /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		ECD40E6E1BBEBD6C0011088D /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		ECD40E6F1BBEBD6C0011088D /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		ECD40E701BBEBD6C0011088D /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		ECD40E711BBEBD6C0011088D /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		ECD40E721BBEBD6C0011088D /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		ECD40E731BBEBD6C0011088D /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
 		FEC1E1ECCE92EE46EC689CCA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,11 +284,13 @@
 		EC462FF61BA1AF5D003E3391 /* Other(其他) */ = {
 			isa = PBXGroup;
 			children = (
+				ECD40E681BBEBD6C0011088D /* Lib */,
 				ECBEF6741BA1D1AF006D34E6 /* Category */,
 				EC462FF71BA1AF5D003E3391 /* AppDelegate.h */,
 				EC462FF81BA1AF5D003E3391 /* AppDelegate.m */,
 				EC462FF91BA1AF5D003E3391 /* main.m */,
 				EC462FFA1BA1AF5D003E3391 /* taoxiu-Prefix.pch */,
+				EC4C77991BB0DF89004CDB59 /* TXCommon.h */,
 			);
 			name = "Other(其他)";
 			path = Other;
@@ -311,6 +353,14 @@
 		EC4630051BA1AF5D003E3391 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EC3292011BAEC9710094D1E4 /* TXStatus.h */,
+				EC3292021BAEC9710094D1E4 /* TXStatus.m */,
+				EC32920A1BAF87DC0094D1E4 /* TXStatusFrame.h */,
+				EC32920B1BAF87DC0094D1E4 /* TXStatusFrame.m */,
+				EC3292041BAF845E0094D1E4 /* TXUser.h */,
+				EC3292051BAF845E0094D1E4 /* TXUser.m */,
+				ECA958F91BBD548600B370C6 /* TXPhoto.h */,
+				ECA958FA1BBD548600B370C6 /* TXPhoto.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +368,14 @@
 		EC4630061BA1AF5D003E3391 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC3292071BAF87A70094D1E4 /* TXStatusTableViewCell.h */,
+				EC3292081BAF87A70094D1E4 /* TXStatusTableViewCell.m */,
+				EC32920D1BAF89FB0094D1E4 /* TXStatusTopView.h */,
+				EC32920E1BAF89FB0094D1E4 /* TXStatusTopView.m */,
+				ECA958FC1BBD55EC00B370C6 /* TXPhotosView.h */,
+				ECA958FD1BBD55EC00B370C6 /* TXPhotosView.m */,
+				ECA958FF1BBD566200B370C6 /* TXPhotoView.h */,
+				ECA959001BBD566200B370C6 /* TXPhotoView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +387,31 @@
 				ECBEF6761BA1D21A006D34E6 /* UIImage+TX.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		ECD40E681BBEBD6C0011088D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				ECD40E691BBEBD6C0011088D /* MJRefresh */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		ECD40E691BBEBD6C0011088D /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				ECD40E6A1BBEBD6C0011088D /* MJRefresh.bundle */,
+				ECD40E6B1BBEBD6C0011088D /* MJRefresh.h */,
+				ECD40E6C1BBEBD6C0011088D /* MJRefreshBaseView.h */,
+				ECD40E6D1BBEBD6C0011088D /* MJRefreshBaseView.m */,
+				ECD40E6E1BBEBD6C0011088D /* MJRefreshConst.h */,
+				ECD40E6F1BBEBD6C0011088D /* MJRefreshConst.m */,
+				ECD40E701BBEBD6C0011088D /* MJRefreshFooterView.h */,
+				ECD40E711BBEBD6C0011088D /* MJRefreshFooterView.m */,
+				ECD40E721BBEBD6C0011088D /* MJRefreshHeaderView.h */,
+				ECD40E731BBEBD6C0011088D /* MJRefreshHeaderView.m */,
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +466,7 @@
 				TargetAttributes = {
 					EC462F571BA18A66003E3391 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DQBAH3U3L8;
 					};
 					EC462F701BA18A67003E3391 = {
 						CreatedOnToolsVersion = 6.4;
@@ -414,6 +498,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD40E741BBEBD6C0011088D /* MJRefresh.bundle in Resources */,
 				EC462F691BA18A67003E3391 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,14 +552,26 @@
 			files = (
 				EC4630081BA1AF5D003E3391 /* AppDelegate.m in Sources */,
 				EC4630091BA1AF5D003E3391 /* main.m in Sources */,
+				ECD40E781BBEBD6C0011088D /* MJRefreshHeaderView.m in Sources */,
 				EC4630071BA1AF5D003E3391 /* TXMeTableViewController.m in Sources */,
 				ECBEF68A1BA2619B006D34E6 /* TXTabBar.m in Sources */,
+				ECD40E761BBEBD6C0011088D /* MJRefreshConst.m in Sources */,
 				EC7227A21BA1C4FF009B69DC /* TXTabBarController.m in Sources */,
+				ECD40E771BBEBD6C0011088D /* MJRefreshFooterView.m in Sources */,
 				EC46300B1BA1AF5D003E3391 /* TXXiuTableViewController.m in Sources */,
+				ECD40E751BBEBD6C0011088D /* MJRefreshBaseView.m in Sources */,
+				EC32920F1BAF89FB0094D1E4 /* TXStatusTopView.m in Sources */,
+				ECA959011BBD566200B370C6 /* TXPhotoView.m in Sources */,
 				ECBEF6771BA1D21A006D34E6 /* UIImage+TX.m in Sources */,
 				EC46300A1BA1AF5D003E3391 /* TXStoreTableViewController.m in Sources */,
 				EC353D031BA2A036002AE0E4 /* TXBadgeView.m in Sources */,
+				ECA958FB1BBD548600B370C6 /* TXPhoto.m in Sources */,
+				EC3292091BAF87A70094D1E4 /* TXStatusTableViewCell.m in Sources */,
+				EC3292031BAEC9710094D1E4 /* TXStatus.m in Sources */,
+				EC3292061BAF845E0094D1E4 /* TXUser.m in Sources */,
+				ECA958FE1BBD55EC00B370C6 /* TXPhotosView.m in Sources */,
 				ECBEF67A1BA24AAD006D34E6 /* TXTabbarButton.m in Sources */,
+				EC32920C1BAF87DC0094D1E4 /* TXStatusFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,12 +680,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "taoXiu/Classes/Other/taoxiu-Prefix.pch";
 				INFOPLIST_FILE = taoXiu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -598,12 +698,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "taoXiu/Classes/Other/taoxiu-Prefix.pch";
 				INFOPLIST_FILE = taoXiu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
